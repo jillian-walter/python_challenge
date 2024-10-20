@@ -15,3 +15,18 @@ In my original attempt, I took a different approach of calculating the average c
 I was able to apply my learnings from the PyBank challenge to the PyPoll challenge, using tickers to add votes to each candidate as it went through the For loop, using a DEF function to calculate percentage of votes, and writing the output for both Terminal and CSV in one segment.
 
 Learning resources: In class personal notes, online forums (Stack overflow to answer questions on DEF functions), tutoring sessions and the PyBank/PyPoll skeletons to track errors and de-bug.
+
+
+After working with the tutor I was still receiving fatal errors to upload via Terminal, which is why files were uploaded via File Upload, see below for error:
+
+(base) jillianwalter@Jillians-MacBook-Pro python_challenge_module3 % git push origin main
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (17/17), done.
+error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400
+send-pack: unexpected disconnect while reading sideband packet
+Writing objects: 100% (20/20), 1.59 MiB | 5.66 MiB/s, done.
+Total 20 (delta 3), reused 0 (delta 0), pack-reused 0
+**fatal: the remote end hung up unexpectedly**
+Everything up-to-date
